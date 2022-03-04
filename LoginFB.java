@@ -24,7 +24,7 @@ public class LoginFB {
 	  driver.findElement(By.linkText("Create New Account")).click();
 	  driver.findElement(By.name("firstname")).sendKeys("Arav0");
 	  driver.findElement(By.name("lastname")).sendKeys("boss");
-	  driver.findElement(By.name("reg_email__")).sendKeys("9611614787");
+	  driver.findElement(By.name("reg_email__")).sendKeys("9611615789");
 	  driver.findElement(By.id("password_step_input")).sendKeys("test1234ty!");
 	  new Select(driver.findElement(By.id("day"))).selectByVisibleText("1");
 	  new Select(driver.findElement(By.id("month"))).selectByIndex(5);
